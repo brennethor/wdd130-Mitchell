@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse verified independent stunt performers, fight choreographers, and action talent.">
+    <title>Talent &amp; Reels | Indie Stunt &amp; Action Talent Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&amp;family=Open+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="../index.html" aria-label="Indie Stunt and Action Talent Hub home">
+            <span class="brand-mark" aria-hidden="true">IS</span>
+            <span><strong>INDIE STUNT</strong><small>&amp; ACTION TALENT HUB</small></span>
+        </a>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a class="active" href="index.html" aria-current="page">Talent &amp; Reels</a>
+            <a href="#casting">Training &amp; Casting</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="page-title">
+            <div class="hero-copy">
+                <p class="eyebrow">THE VERIFIED ROSTER <span></span> 001</p>
+                <h1 id="page-title">Featured <em>Action</em> Talent</h1>
+                <p class="hero-text">Every performer listed in our hub brings proven training in physical movement and set protocol. Review specialties, safety credentials, and reel highlights before your next call sheet.</p>
+                <a class="button button-light" href="#talent-roster">Explore the roster <span aria-hidden="true">↓</span></a>
+            </div>
+        </section>
+
+        <section class="roster-section" id="talent-roster" aria-labelledby="roster-heading">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow eyebrow-dark">SCOUT WITH CONFIDENCE</p>
+                    <h2 id="roster-heading">Built for the <span>action.</span></h2>
+                </div>
+                <p class="section-intro">Watch uncut movement, compare specialties, and find physical talent that understands both performance and safety.</p>
+            </div>
+
+            <div class="talent-grid">
+                <article class="talent-card" data-specialties="combat">
+                    <div class="card-image marcus-image">
+                        <span class="profile-index">01 / 03</span>
+                        <span class="image-note">PROFILE PORTRAIT</span>
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Portrait placeholder for Marcus Vance" loading="lazy">
+                        <span class="play-button" aria-hidden="true"><span>▶</span></span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-heading"><div><p class="card-role">FIGHT CHOREOGRAPHY / MARTIAL ARTS</p><h3>Marcus Vance</h3></div><span class="verified" title="Verified profile">✓</span></div>
+                        <p>With eight years of competitive Wushu and stage combat training, Marcus specializes in close-quarters hand-to-hand choreography and weapon work.</p>
+                        <div class="reel-note"><span>REEL HIGHLIGHT</span> Multi-attacker warehouse sequences designed for single-take camera movement.</div>
+                        <div class="skill-list"><span>Stage Combat</span><span>Sword &amp; Staff</span><span>Rigging Basics</span></div>
+                    </div>
+                </article>
+
+                <article class="talent-card featured-card" data-specialties="acrobatics">
+                    <div class="card-image elena-image">
+                        <span class="profile-index">02 / 03</span>
+                        <span class="image-note">PROFILE PORTRAIT</span>
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Portrait placeholder for Elena Rostova" loading="lazy">
+                        <span class="play-button" aria-hidden="true"><span>▶</span></span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-heading"><div><p class="card-role">TRICKING / PARKOUR / HIGH FALLS</p><h3>Elena Rostova</h3></div><span class="verified" title="Verified profile">✓</span></div>
+                        <p>Elena is a former competitive gymnast turned indie stunt double specializing in urban parkour, precision flips, and stair and ledge falls up to 15 feet.</p>
+                        <div class="reel-note"><span>REEL HIGHLIGHT</span> Rooftop chase sequences and wire-assisted leaps filmed with full spotter protocols.</div>
+                        <div class="skill-list"><span>Parkour / Freerunning</span><span>Gymnastic Acro</span><span>Low-to-Mid High Falls</span></div>
+                    </div>
+                </article>
+
+                <article class="talent-card" data-specialties="tactical">
+                    <div class="card-image devon-image">
+                        <span class="profile-index">03 / 03</span>
+                        <span class="image-note">PROFILE PORTRAIT</span>
+                        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Portrait placeholder for Devon Brooks" loading="lazy">
+                        <span class="play-button" aria-hidden="true"><span>▶</span></span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-heading"><div><p class="card-role">TACTICAL MOVEMENT / VEHICLE REACTIONS</p><h3>Devon Brooks</h3></div><span class="verified" title="Verified profile">✓</span></div>
+                        <p>Specializing in grounded tactical action and heavy hit reactions, Devon helps indie thrillers and sci-fi shorts achieve realistic physical intensity on tight budgets.</p>
+                        <div class="reel-note"><span>REEL HIGHLIGHT</span> Breakaway props, squib reactions, and safe near-miss vehicle choreography.</div>
+                        <div class="skill-list"><span>Breakaway Props</span><span>Fall &amp; Hit Reactions</span><span>Tactical Movement</span></div>
+                    </div>
+                </article>
+            </div>
+            <p class="empty-message" hidden>No profiles match that specialty yet. Try another filter.</p>
+        </section>
+
+        <section class="cta-section" id="casting" aria-labelledby="casting-heading">
+            <div><p class="eyebrow">NEXT UP</p><h2 id="casting-heading">Ready to cast<br><em>the action?</em></h2></div>
+            <div><p>Have a production that needs verified physical talent? Tell us what you are building and we will help connect you with the right performer.</p><a class="button button-dark" href="mailto:casting@example.com?subject=Action%20talent%20inquiry">Start an inquiry <span aria-hidden="true">↗</span></a></div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><span>© 2026 Indie Stunt &amp; Action Talent Hub</span><span>BUILT FOR THE INDIE SET <b>◆</b></span></footer>
+</body>
+</html>
